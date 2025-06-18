@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100;
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100;
+    height: auto;
+}
+
+.border {
+    position: relative;
+    border: solid 80px red;
+    border-radius: 10px;;
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.odin-sketch {
+    display: absolute;
+    position: relative;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    top: -60px;
+    margin-bottom: -34px;
+    caret-color: none;
+    user-select: none;;
+}
+
+#grid-container {
+    display: flex;
+    background-color: white;
+    border: solid 4px;
+    border-color: blue;
+    width: 100%;
+    height: 292px;
+}
+
+.leftKnob {
+    position: absolute;
+    left: -20%;
+    top: 120%;
+    transform: translateY(-50px);
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.rightKnob {
+    position: absolute;
+    right: -20%;
+    top:120%;
+    transform: translateY(-50px);
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50px;
+}
