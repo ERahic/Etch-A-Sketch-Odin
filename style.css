@@ -36,7 +36,8 @@ body {
     display: absolute;
     position: relative;
     color: goldenrod;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif, 'Times New Roman';
+    font-style: italic;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -48,11 +49,20 @@ body {
 
 #grid-container {
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     border: solid 4px;
     border-color: blue;
-    width: 100%;
+    width: 342px;
     height: 292px;
+}
+
+.grid-cell {
+    flex: 1 auto;
+    width: calc(342px / 16);
+    box-sizing: border-box;
+    border: solid 1px black;
+    text-align: center;
 }
 
 .leftKnob {
