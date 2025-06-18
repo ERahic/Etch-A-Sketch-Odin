@@ -15,4 +15,8 @@ for (i = 0; i < defaultGrid * defaultGrid; i++) {
     gridCell.classList.add("grid-cell");
     // The grid-cell class will be appended as a child to the containerGrid in order for the cells to be displayed
     gridContainer.appendChild(gridCell);
+    // whenever the user clicks on a grid-cell, the background colour should be turned to black
+    gridCell.addEventListener("mousemove", function() {
+        gridCell.style.backgroundColor = "black"
+    })
 }
