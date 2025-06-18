@@ -54,11 +54,11 @@ body {
     border: solid 4px;
     border-color: blue;
     width: 342px;
-    height: 292px;
+    height: 342px;
 }
 
 .grid-cell {
-    flex: 1 auto;
+    flex:1 auto;
     width: calc(342px / 16);
     box-sizing: border-box;
     border: solid 1px black;
