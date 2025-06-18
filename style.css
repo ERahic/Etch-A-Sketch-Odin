@@ -65,7 +65,11 @@ body {
     text-align: center;
 }
 
-.leftKnob {
+.hover {
+    background-color: black;
+}
+
+#leftKnob {
     position: absolute;
     left: -20%;
     top: 120%;
@@ -76,7 +80,7 @@ body {
     border-radius: 50px;
 }
 
-.rightKnob {
+#rightKnob {
     position: absolute;
     right: -20%;
     top:120%;
